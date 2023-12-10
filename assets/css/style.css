@@ -1,0 +1,96 @@
+
+.heroImg{
+    padding: 50px 0 90px;
+}
+
+.navbar-default.mainHeader {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.heroImg .navbar-nav > li > a{
+    color: var(--text-color-pri);
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+.heroImg .headerImg img{
+    width: 100%;
+}
+
+.paragraph{
+    padding-bottom: 100px;
+}
+
+.ownThumbnail{
+    width: 410px;
+    margin: 70px 0;
+}
+
+.ownThumbnail img{
+   width: 100%;
+   height: 275px;
+}
+
+.ownThumbnail .text{
+    margin-top: 20px;
+}
+
+.signupfr{
+ background-color: var(--bgcolor-pri);
+ padding: 65px 0;
+}
+
+.signup .signform{
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    border: transparent;
+    border-bottom: 2px solid var(--text-color-sec);
+    width: 40%;
+}
+
+.signup a>i{
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-30px);
+    color: var(--text-color-sec);
+    font-size: 30px;
+}
+
+.load{
+    margin-bottom: 65px;
+    color: var(--text-color-pri);
+    font-size: 20px;
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    border: 2px solid var(--text-color-sec);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px var(--text-color-pri);
+}
+
+.load .btn{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: rgb(180, 173, 158,0.4);
+}
+
+.footer ul>li{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.social-icons>li>a{
+    color: var(--text-color-pri);
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+:root{
+    --text-color-pri: #626262;
+    --text-color-sec: #b4ad9e;
+    --bgcolor-pri: #f0f0f0;
+}
+
+.text{
+    color: var(--text-color-sec);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pri-heading{
+    font-size: 30px;
+    color: var(--text-color-pri);
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+.pri-para{
+    color: var(--text-color-pri);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 45px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul>li{
+    display: inline-block;
+}
+
+a,a:active.a:focus{
+    text-decoration: none;
+}
